@@ -1,4 +1,4 @@
-//zad.3 Napisaæ funkcje ThrowSomething, ktora na podstawie przekazanego do niej typu zwroci wyjatek tego typu wraz z jakas wartoscia.
+//zad.3 Napisac funkcje ThrowSomething, ktora na podstawie przekazanego do niej typu zwroci wyjatek tego typu wraz z jakas wartoscia.
 // Ma wykrywac pierwsze 4 typy z enum Type, natomiast w innym wypadku ma wyrzucac tekst "Nieznany typ!".
 // Napisac odpowiednio zagniezdzone instrukcje try/catch w funkcji ExceptionHandler,
 // tak by najpierw lapala znane typy, a dopiero w ostatecznosci nieznane typy.

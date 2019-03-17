@@ -14,7 +14,7 @@ namespace MathExceptions
 
 double Division(double a, double b)
 {
-	return 0;
+	return a / b;
 }
 
 int main()
