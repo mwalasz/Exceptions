@@ -9,7 +9,7 @@ namespace MathExceptions
 	class DivideByZeroException : public std::exception
 	{
 	public:
-		const char * what() throw()
+		const char * what() noexcept
 		{
 			return "Nie wolno dzielic przez 0! \n";
 		}
@@ -18,7 +18,7 @@ namespace MathExceptions
 	class BothNumbersAreZeroException : public std::exception
 	{
 	public:
-		const char * what() throw()
+		const char * what() noexcept
 		{
 			return "Obydwie liczby sa rowne 0! \n";
 		}
@@ -38,7 +38,7 @@ double Division(double a, double b)
 
 int main()
 {
-	double a = 10, b = 0;
+	double a = 20, b = 10;
 
 	try
 	{
