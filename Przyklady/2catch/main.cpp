@@ -17,8 +17,3 @@ int main() {
 	std::cout << "juz wszystko dobrze :)";
 	return 0;
 }
-
-
-
-
-
